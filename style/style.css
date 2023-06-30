@@ -1,0 +1,97 @@
+:root{
+    --spanpadrão: rgb(92, 148, 52);
+}
+
+
+.neruslogo > img{
+    width: 200px;
+    flex-direction: row;
+}
+
+body
+{
+    background-color: rgb(32, 49, 36);
+    color: white;
+    margin: 20px; /*Para fixar tudo no meio*/
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+li{
+    color: white;
+    font-size: 1.4em;
+    display: inline-block;
+    margin: 30px;
+    font-family: 'robotob';
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.text > h1{
+    font-weight: 200;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 15px;
+    font-family: 'robotor';
+    
+}
+
+.text > p{
+    width: 70%;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: 'robotor';
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+
+}
+
+article >img{
+    width: 700px;
+    height: 100%;
+}
+
+span{
+    color:var(--spanpadrão);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+#submit{
+    font-family: 'robotor';
+    height: 50px;
+    width: 20%;
+    color:white;
+    background-color:  #5C9434;
+    font-weight: bold;
+}
+#submit:hover{
+    cursor: pointer;
+    
+}
+
+input{
+    font-size: 0.9em;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 20px;
+    padding: 15px;
+    border: none;
+    background-color: var(--spanpadrão);
+}
